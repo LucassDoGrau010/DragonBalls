@@ -1,0 +1,25 @@
+.logo{
+    width: 500px;
+    height: auto;
+
+}
+
+.wrapimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-exemplo {
+  /* Tamanho da caixa (Conteúdo) */
+  width: 300px;
+  height: 150px;
+
+  /* Espaçamento interno */
+  padding: 20px;
+
+  /* Borda */
+  border: 2px solid #333;
+
+  /* Espaçamento externo */
+  margin: 15px auto;
+}

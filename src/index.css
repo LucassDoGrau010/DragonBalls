@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(58, 53, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+img{
+    height: 180px;
+}
+.caixa-exemplo {
+  /* Tamanho da caixa (Conteúdo) */
+  width: 300px;
+  height: 150px;
+
+  /* Espaçamento interno */
+  padding: 20px;
+
+  /* Borda */
+  border: 2px solid #333;
+
+  /* Espaçamento externo */
+  margin: 15px auto;
+}
